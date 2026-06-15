@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Reportes generados automáticamente
+reports/*.json
+reports/*.csv
+
+# Permitir archivos guía dentro de carpetas vacías
+!reports/.gitkeep
+!captures/.gitkeep
