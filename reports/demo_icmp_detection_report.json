@@ -1,0 +1,49 @@
+{
+    "capture_file": "captures\\demo.pcap",
+    "detection_name": "ICMP Flood",
+    "detection_method": "Conteo de paquetes ICMP Echo Request por IP origen dentro de una ventana temporal.",
+    "configuration": {
+        "window_seconds": 1.0,
+        "threshold_echo_requests": 10,
+        "expected_attacker": null
+    },
+    "summary": {
+        "total_packets": 40,
+        "total_icmp_packets": 40,
+        "total_echo_requests": 20,
+        "duration_seconds": 1.526633,
+        "total_alerts": 1,
+        "detected_sources": [
+            "192.168.0.6"
+        ],
+        "icmp_types": {
+            "Echo Request": 20,
+            "Echo Reply": 20
+        },
+        "echo_requests_by_source": {
+            "192.168.0.6": 20
+        }
+    },
+    "metrics": {
+        "true_positive": null,
+        "false_positive_count": null,
+        "false_negative": null,
+        "first_detection_time": "2026-06-15T03:20:00.387217+00:00"
+    },
+    "alerts": [
+        {
+            "packet_number": 19,
+            "timestamp": "2026-06-15T03:20:00.387217+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "window_seconds": 1.0,
+            "echo_requests_in_window": 10,
+            "threshold": 10,
+            "estimated_rate_per_second": 10.0,
+            "description": "Posible ICMP Flood: 192.168.0.6 envió 10 Echo Request en 1.0 segundos."
+        }
+    ]
+}

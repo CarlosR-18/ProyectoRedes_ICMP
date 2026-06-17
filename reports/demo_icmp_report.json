@@ -1,0 +1,468 @@
+{
+    "capture_file": "captures\\demo.pcap",
+    "total_packets": 40,
+    "icmp_packets": 40,
+    "icmp_percentage": 100.0,
+    "first_packet_time": "2026-06-15T03:19:59.687966+00:00",
+    "last_packet_time": "2026-06-15T03:20:01.214599+00:00",
+    "duration_seconds": 1.526633,
+    "icmp_packets_per_second": 26.2015,
+    "icmp_types": {
+        "Echo Request": 20,
+        "Echo Reply": 20
+    },
+    "top_sources": {
+        "192.168.0.6": 20,
+        "8.8.8.8": 20
+    },
+    "top_destinations": {
+        "8.8.8.8": 20,
+        "192.168.0.6": 20
+    },
+    "conversations": {
+        "192.168.0.6 -> 8.8.8.8": 20,
+        "8.8.8.8 -> 192.168.0.6": 20
+    },
+    "packet_details": [
+        {
+            "packet_number": 1,
+            "timestamp": "2026-06-15T03:19:59.687966+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 2,
+            "timestamp": "2026-06-15T03:19:59.762790+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 3,
+            "timestamp": "2026-06-15T03:19:59.763600+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 4,
+            "timestamp": "2026-06-15T03:19:59.840557+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 5,
+            "timestamp": "2026-06-15T03:19:59.841361+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 6,
+            "timestamp": "2026-06-15T03:19:59.926279+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 7,
+            "timestamp": "2026-06-15T03:19:59.926742+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 8,
+            "timestamp": "2026-06-15T03:20:00.004431+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 9,
+            "timestamp": "2026-06-15T03:20:00.005011+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 10,
+            "timestamp": "2026-06-15T03:20:00.088053+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 11,
+            "timestamp": "2026-06-15T03:20:00.088798+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 12,
+            "timestamp": "2026-06-15T03:20:00.161197+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 13,
+            "timestamp": "2026-06-15T03:20:00.161626+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 14,
+            "timestamp": "2026-06-15T03:20:00.242794+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 15,
+            "timestamp": "2026-06-15T03:20:00.243400+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 16,
+            "timestamp": "2026-06-15T03:20:00.315329+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 17,
+            "timestamp": "2026-06-15T03:20:00.315894+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 18,
+            "timestamp": "2026-06-15T03:20:00.386589+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 19,
+            "timestamp": "2026-06-15T03:20:00.387217+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 20,
+            "timestamp": "2026-06-15T03:20:00.476734+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 21,
+            "timestamp": "2026-06-15T03:20:00.477223+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 22,
+            "timestamp": "2026-06-15T03:20:00.569173+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 23,
+            "timestamp": "2026-06-15T03:20:00.569977+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 24,
+            "timestamp": "2026-06-15T03:20:00.649491+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 25,
+            "timestamp": "2026-06-15T03:20:00.650408+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 26,
+            "timestamp": "2026-06-15T03:20:00.721819+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 27,
+            "timestamp": "2026-06-15T03:20:00.722232+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 28,
+            "timestamp": "2026-06-15T03:20:00.792147+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 29,
+            "timestamp": "2026-06-15T03:20:00.792559+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 30,
+            "timestamp": "2026-06-15T03:20:00.863963+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 31,
+            "timestamp": "2026-06-15T03:20:00.864314+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 32,
+            "timestamp": "2026-06-15T03:20:00.933885+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 33,
+            "timestamp": "2026-06-15T03:20:00.934264+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 34,
+            "timestamp": "2026-06-15T03:20:01.004072+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 35,
+            "timestamp": "2026-06-15T03:20:01.004425+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 36,
+            "timestamp": "2026-06-15T03:20:01.073849+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 37,
+            "timestamp": "2026-06-15T03:20:01.074230+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 38,
+            "timestamp": "2026-06-15T03:20:01.143333+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 39,
+            "timestamp": "2026-06-15T03:20:01.143613+00:00",
+            "source_ip": "192.168.0.6",
+            "destination_ip": "8.8.8.8",
+            "icmp_type": 8,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Request",
+            "ip_ttl": 64,
+            "ip_length": 46
+        },
+        {
+            "packet_number": 40,
+            "timestamp": "2026-06-15T03:20:01.214599+00:00",
+            "source_ip": "8.8.8.8",
+            "destination_ip": "192.168.0.6",
+            "icmp_type": 0,
+            "icmp_code": 0,
+            "icmp_type_name": "Echo Reply",
+            "ip_ttl": 107,
+            "ip_length": 46
+        }
+    ]
+}
